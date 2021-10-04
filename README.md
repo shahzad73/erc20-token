@@ -5,6 +5,4 @@
 > - Truffle Project
 > Download and install it with truffle and ganachi
 
-Here is a simple footnote[^1].
 
-[^1]: My reference.
