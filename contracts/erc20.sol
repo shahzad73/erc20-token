@@ -4,9 +4,9 @@ import "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol";
 
 contract erc20 is ERC20 {
 
-	constructor() ERC20("DigiShares99", "DIGI") {
+	constructor(address _tokenToMintAddress, uint256 _initialSupply, string memory _name ) ERC20(_name, _name) {
 	
-			_mint(address(0xc56e006Ae844fB24096C4e8a87ca2a472048e175), 100000000000000000000000);
+			_mint(_tokenToMintAddress , _initialSupply);
 							 
 	}
 
